@@ -6,7 +6,7 @@ export const doctors = [
   {
     id: '01',
     name: 'Dr. Leo',
-    specialization: 'Surgeon',
+    specialization: 'Endodoncista',
     avgRating: 4.5,
     totalRating: 230,
     photo: doctorImg01,
@@ -16,7 +16,7 @@ export const doctors = [
   {
     id: '02',
     name: 'Dr. Jerson',
-    specialization: 'Neurologist',
+    specialization: 'Ordontodista',
     avgRating: 4.8,
     totalRating: 120,
     photo: doctorImg02,
@@ -26,7 +26,7 @@ export const doctors = [
   {
     id: '03',
     name: 'Dr. José',
-    specialization: 'Dermatologist',
+    specialization: 'Prostodoncista',
     avgRating: 4.3,
     totalRating: 139,
     photo: doctorImg03,
