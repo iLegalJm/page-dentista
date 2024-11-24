@@ -11,8 +11,6 @@ import avatarIcon from '../assets/images/avatar-icon.png';
 import faqImg from '../assets/images/faq-img.png';
 import { BsArrowRight } from 'react-icons/bs';
 import About from '../components/About/About';
-import ServiceList from '../components/Services/ServiceList';
-import DoctorList from '../components/Doctors/DoctorList';
 import FaqList from '../components/Faq/FaqList';
 import Testimonial from '../components/Testimonial/Testimonial';
 
@@ -32,7 +30,10 @@ const Home = () => {
                 <p className="text__para">
                   Bienvenido a nuestra clínica dental. Ofrecemos servicios de alta calidad para el cuidado de tu salud bucal. Nuestro equipo de expertos está aquí para brindarte la mejor atención.
                 </p>
-                <button className="btn">Solicitar una cita</button>
+                <br />
+                <button>
+                  <Link to="/citas/reservar" className="btn">Solicitar una cita</Link>
+                </button>
               </div>
               {/* hero counter */}
               <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">

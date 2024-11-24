@@ -7,6 +7,7 @@ import Doctors from '../pages/Doctors/Doctors';
 import DoctorsDetails from '../pages/Doctors/DoctorsDetails';
 
 import { Route, Routes } from 'react-router-dom';
+import ReservarCita from '../pages/Citas/ReservarCita';
 
 const Routers = () => {
   return (
@@ -19,6 +20,7 @@ const Routers = () => {
       {/* <Route path="/register" element={<Signup />} /> */}
       <Route path="/contact" element={<Contact />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/citas/reservar" element={<ReservarCita />} /> 
     </Routes>
   );
 };
